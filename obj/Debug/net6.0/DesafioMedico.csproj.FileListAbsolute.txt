@@ -40,3 +40,4 @@ C:\Projetos\AutoPlay\DesafioMedicos\DesafioMedico\obj\Debug\net6.0\DesafioMedico
 C:\Projetos\AutoPlay\DesafioMedicos\DesafioMedico\obj\Debug\net6.0\DesafioMedico.genruntimeconfig.cache
 C:\Projetos\AutoPlay\DesafioMedicos\DesafioMedico\obj\Debug\net6.0\refint\DesafioMedico.dll
 C:\Projetos\AutoPlay\DesafioMedicos\DesafioMedico\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projetos\AutoPlay\DesafioMedicos\DesafioMedico\obj\Debug\net6.0\DesafioMedico.sourcelink.json
