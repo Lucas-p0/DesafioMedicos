@@ -8,12 +8,13 @@ namespace DesafioMedico.Filtro
     {
         public static void FiltraPacientesPorConsulta(List<ConsultaMedica> consultas)
         {
-            var todasAsConsultas = consultas.OrderBy(consulta => consulta.NomePaciente).Select(consultaMedica => consultaMedica).Distinct().ToList();
+            var todasAsConsultas = consultas.OrderBy(consulta => consulta.Cpf).Select(consultaMedica => consultaMedica).Distinct().ToList();
             foreach (var consulta in todasAsConsultas)
             {
-                Console.WriteLine($"{consulta.NomePaciente}");
+                Console.WriteLine($"{consulta}");
             }
         }
+        public void
 
 
     }
