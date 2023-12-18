@@ -5,7 +5,7 @@ using System.Text.Json;
 
 using (HttpClient client = new())
 {
-    string URL_API = "https://github.com/Lucas-p0/DesafioMedicos/blob/main/DesafioMedico.json";
+    string URL_API = "https://raw.githubusercontent.com/Lucas-p0/DesafioMedicos/main/DesafioMedico.json";
 
     try
     {

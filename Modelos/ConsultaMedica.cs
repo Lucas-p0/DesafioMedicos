@@ -39,10 +39,10 @@ public class ConsultaMedica
     public string? Particular { get; protected set; }
 
     [JsonPropertyName("NumeroDaCarteirinha")]
-    public string? NumeroDaCarteirinha { get; protected set; }
+    public long NumeroDaCarteirinha { get; protected set; }
 
     [JsonPropertyName("ValorDaConsulta")]
-    public string? ValorDaConsulta { get; protected set; }
+    public double ValorDaConsulta { get; protected set; }
 
 
     // public ConsultaMedica(DateTime dataConsulta, string horaConsulta, string nomePaciente, long cpf, string rua, string cidade, string estado, string especialidade, string nomeMedico, bool particular, long numeroDaCarteirinha)
